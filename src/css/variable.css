@@ -1,0 +1,6 @@
+:root{
+    --cor-texto: hsla(0, 0%, 100%, 0.75);
+    --cor-titulos: hsl(0, 0%, 95%);
+    --fonte-padrao: 'Lexend Deca', sans-serif;
+    --tamanho-fonte: 15px;
+}
