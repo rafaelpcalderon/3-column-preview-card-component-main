@@ -38,6 +38,7 @@
         .button{
         transition: 0.3s;
         margin: 0;
+        cursor: none;
       }
 
       .b1{
