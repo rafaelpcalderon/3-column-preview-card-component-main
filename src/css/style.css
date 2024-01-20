@@ -19,8 +19,7 @@ main{
     padding: 50px;  
     justify-content: center;
     flex-direction: column;
-    width: 310px;
-    height: 500px;
+    max-width: 310px;
     gap: 30px;
 }
 
@@ -76,7 +75,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: none;
+    background: #ffffff;
     width: 140px;
     padding: 15px;
     border-radius: 30px;
@@ -85,5 +84,35 @@ img{
     margin-top: 50px;
     cursor: pointer; 
     font-family: var(--fonte-padrao);
+    font-size: 16px;
 }
+
+.button:hover{
+    background-color: transparent;
+}
+
+.b1{
+    color: hsl(31, 77%, 52%);
+}
+
+.b2{
+    color: hsl(184, 100%, 22%);
+}
+
+.b3{
+    color: hsl(179, 100%, 13%);
+}
+
+.b1:hover{
+    color: hsl(0, 0%, 100%);
+}
+
+.b2:hover{
+    color: hsl(0, 0%, 100%);
+}
+
+.b3:hover{
+    color: hsl(0, 0%, 100%);
+}
+
 
